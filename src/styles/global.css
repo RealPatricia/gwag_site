@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nanum';
-    src: url(../../NanumBrushScript-Regular.ttf);
+    src: url(/NanumBrushScript-Regular.ttf);
 }
 .construction-flex-container {
     display: flex;
