@@ -6,8 +6,51 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Astro</title>
+		<style>
+			@font-face {
+				font-family: 'Nanum';
+				src: url(../../public/NanumBrushScript-Regular.ttf);
+			}
+			.flex-container {
+				display: flex;
+				width: 50%;
+				margin: auto;
+				flex-direction: column;
+				align-items: center;
+				max-width: 900px;
+			}
+
+			.goblinish {
+				font-family: Nanum, Arial, Helvetica, sans-serif;
+				margin: auto;
+				text-align: center;
+			}
+
+			h1 {
+				font-size: 72pt;
+			}
+
+			p {
+
+			}
+
+			img {
+				width: 100%;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>GWAG</h1>
+		<div class="flex-container">
+			<div>
+				<h1 class="goblinish">Gurk dimo gollintoss, Ig roggle Sok!</h1>
+				<p class="goblinish">Translation: "hold your war pigs, I'm workin' on it"</p>
+			</div>
+			<div>
+
+			</div>
+			<div>
+				<img src="GWAG_logo.png">
+			</div>
+		</div>
 	</body>
 </html>
