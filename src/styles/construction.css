@@ -1,22 +1,3 @@
-@font-face {
-    font-family: 'Nanum';
-    src: url(../../NanumBrushScript-Regular.ttf);
-}
-.flex-container {
-    display: flex;
-    width: 50%;
-    margin: auto;
-    flex-direction: column;
-    align-items: center;
-    max-width: 900px;
-}
-
-.goblinish {
-    font-family: Nanum, Arial, Helvetica, sans-serif;
-    margin: auto;
-    text-align: center;
-}
-
 h1 {
     font-size: 6.5vw;
 }
