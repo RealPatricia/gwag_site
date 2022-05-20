@@ -16,3 +16,97 @@
     margin: auto;
     text-align: center;
 }
+
+.team-icon {
+    margin: auto;
+    padding: 15%;
+}
+
+.team-card-inner {
+    margin: auto;
+    align-items: center;
+    width: 90%;
+    max-width: 300px;
+    min-height: 200px;
+
+    display: block;
+    text-decoration: none;
+}
+
+a.team-card-inner:visited, a.team-card-inner:link, a.team-card-inner:hover, a.team-card-inner:active{
+    color: black;
+}
+
+.team-icon > img.goblinish {
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.department {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.department > * {
+    flex: 1 1 300px;
+}
+
+h1.goblinish {
+    font-size: 6.5vw;
+}
+
+p.goblinish {
+    font-size: 2vw;
+}
+
+img.goblinish {
+    width: 80%;
+    margin: auto;
+}
+
+/* Modal Box */
+.modalbox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(192, 192, 192, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0; 
+}
+
+.modalbox:target {
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+
+.modal-content > a.modal-close {
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a.modal-close:visited, a.modal-close:link, a.modal-close:hover, a.modal-close:active{
+    color: black;
+}
+
+.modal-close {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}

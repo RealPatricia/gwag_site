@@ -1,0 +1,26 @@
+---
+const {member, display_name} = Astro.props;
+---
+
+<div class="team-card-wrapper">
+    <a href={`#${member}-modal`} class="team-card-inner">
+        <div class="team-icon">
+            <img class="goblinish" src={`icons/${member}.png`}>
+        </div>
+        <div class="member-name">
+            <p class="goblinish">{display_name}</p>
+        </div>
+    </a>
+    <div class="modalbox" id={`${member}-modal`}>
+        <div class="modal-content">
+            <div class="modal-title"><h1>{member}</h1></div>
+            <a href="#" class="modal-close">&times;</a>
+            <div class="modal-inner">
+                <img class="goblinish" src={`icons/${member}.png`}>
+                <div class="socials">
+                    <slot />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
