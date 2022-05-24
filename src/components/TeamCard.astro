@@ -13,9 +13,9 @@ const {member, display_name} = Astro.props;
     </a>
     <div class="modalbox" id={`${member}-modal`}>
         <div class="modal-content">
-            <div class="modal-title"><h1>{member}</h1></div>
+            <div class="goblinish modal-title"><h1>{member}</h1></div>
             <a href="#" class="modal-close">&times;</a>
-            <div class="modal-inner">
+            <div class="modal-content-inner">
                 <img class="goblinish" src={`icons/${member}.png`}>
                 <div class="socials">
                     <slot />

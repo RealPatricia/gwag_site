@@ -11,11 +11,29 @@
     max-width: 900px;
 }
 
+/* Goblinish */
+
 .goblinish {
     font-family: Nanum;
     margin: auto;
     text-align: center;
 }
+
+h1.goblinish {
+    font-size: 7vw;
+}
+
+p.goblinish {
+    font-size: 3vw;
+}
+
+img.goblinish {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+/* */
 
 .team-icon {
     margin: auto;
@@ -51,19 +69,6 @@ a.team-card-inner:visited, a.team-card-inner:link, a.team-card-inner:hover, a.te
     flex: 1 1 300px;
 }
 
-h1.goblinish {
-    font-size: 6.5vw;
-}
-
-p.goblinish {
-    font-size: 2vw;
-}
-
-img.goblinish {
-    width: 80%;
-    margin: auto;
-}
-
 /* Modal Box */
 .modalbox {
     position: absolute;
@@ -89,9 +94,9 @@ img.goblinish {
 .modal-content {
     position: relative;
     background: #fff;
-    width: 500px;
-    max-width: 90%;
-    padding: 1em 2em;
+    width: 600px;
+    max-width: 80%;
+    padding: 2em 1em;
     border-radius: 1em;
 }
 
@@ -110,3 +115,54 @@ a.modal-close:visited, a.modal-close:link, a.modal-close:hover, a.modal-close:ac
     top: 5%;
     right: 5%;
 }
+
+.modal-content-inner {
+    display: flex;
+}
+
+.modal-content-inner > * {
+    flex-basis: 100%;
+}
+
+.modal-content-inner > img {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+/* Social */
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.social-inner {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.social-inner {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.social-inner > img {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 2rem;
+} 
+
+a.social:visited, a.social:link, a.social:hover, a.social:active{
+    color: black;
+}
+
+/* .social > h1 {
+    margin-left: 0%;
+} */

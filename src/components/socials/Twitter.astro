@@ -1,0 +1,8 @@
+---
+import BaseSocial from "./BaseSocial.astro";
+const {link} = Astro.props;
+---
+
+<BaseSocial link={link} icon="twitter">
+    <slot />
+</BaseSocial>

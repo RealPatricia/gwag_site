@@ -1,0 +1,10 @@
+---
+const {link, icon} = Astro.props;
+---
+
+<a href={link} class="social goblinish">
+    <div class="social-inner">
+        <img src={`icons/social/${icon}.png`}>
+        <p class="goblinish"><slot /></p>
+    </div>
+</a>
